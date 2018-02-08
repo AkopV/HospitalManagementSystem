@@ -8,10 +8,10 @@ Design Pattern
 MySql Database
 
 The system administrator can access the list of Patients and the list of Physicians by categories:
-  * pediatrician
-  * Traumatologist
-  * Surgeon
-  * ...
+ _ * pediatrician
+ _ * Traumatologist
+ _ * Surgeon
+ _ * ...
 
 Implement sorting capability
   patients:
