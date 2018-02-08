@@ -1,5 +1,5 @@
 # HospitalManagementSystem
-init
+
 Free Java project for Management Hospital Using J2EE
 
 ## Used Technologies
