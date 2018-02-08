@@ -1,0 +1,43 @@
+<%--===========================================================================
+Header (top area).
+===========================================================================--%>
+<%@ include file="/WEB-INF/jspf/directive/page.jspf" %>
+<%@ include file="/WEB-INF/jspf/directive/taglib.jspf" %>
+
+<%--===========================================================================
+    Language
+    ===========================================================================--%>
+<div class="lang">
+    <form action="controller" method="post" class="fr">
+        <input type="hidden" name="command" value="language">
+        <input type="hidden" name="language" value="en">
+        <input type="hidden" name=url value="${requestScope['javax.servlet.forward.query_string']}">
+        <input type="image" src="img/usa.png" height="48" width="48" alt="Submit" align="right">
+    </form>
+    <form action="controller" method="post" class="fr">
+        <input type="hidden" name="command" value="language">
+        <input type="hidden" name="language" value="ru">
+        <input type="hidden" name=url value="${requestScope['javax.servlet.forward.query_string']}">
+        <input type="image" src="img/ru.png" height="48" width="48" alt="Submit" align="right">
+    </form>
+</div>
+
+<div class="details" align="center">
+
+    <img alt="" src="img/hospital.png" align="center">
+    <h2><fmt:message key="title.app"></fmt:message></h2>
+    <%--===========================================================================
+    Type user role name if the user object is presented in the current session.
+    ===========================================================================--%>
+
+    <c:if test="${not empty userRole}">
+        <b><c:out value="${user.firstName}
+                         ${user.lastName}
+                        (${userRole.name})"></c:out></b>
+        <a href="controller?command=logout" style="...">
+            <fmt:message key="header.logout"></fmt:message>
+        </a>
+    </c:if>
+
+
+</div>

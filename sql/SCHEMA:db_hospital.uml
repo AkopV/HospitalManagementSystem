@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>711b3f9c-c309-4d0f-835a-2e7a62a14a49.SCHEMA:db_hospital</OriginalElement>
+  <nodes>
+    <node x="562.0" y="191.0">711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.types_of_treatment</node>
+    <node x="23.75" y="393.0">711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.discharged_patients</node>
+    <node x="0.0" y="0.0">711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.specializations</node>
+    <node x="470.25" y="393.0">711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.treatments</node>
+    <node x="186.0" y="0.0">711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.roles</node>
+    <node x="70.5" y="125.0">711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.users</node>
+    <node x="342.0" y="191.0">711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.hospital_cards</node>
+    <node x="242.75" y="382.0">711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.patients</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.users" target="711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.roles">
+      <point x="52.75" y="-103.5" />
+      <point x="228.75" y="100.0" />
+      <point x="269.0" y="100.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.discharged_patients" target="711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.users">
+      <point x="0.0" y="-70.5" />
+      <point x="-52.75" y="103.5" />
+    </edge>
+    <edge source="711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.users" target="711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.specializations">
+      <point x="-52.75" y="-103.5" />
+      <point x="123.25" y="100.0" />
+      <point x="83.0" y="100.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.patients" target="711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.users">
+      <point x="-49.75" y="-81.5" />
+      <point x="292.5" y="357.0" />
+      <point x="228.75" y="357.0" />
+      <point x="52.75" y="103.5" />
+    </edge>
+    <edge source="711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.treatments" target="711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.types_of_treatment">
+      <point x="58.25" y="-70.5" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.treatments" target="711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.hospital_cards">
+      <point x="-58.25" y="-70.5" />
+      <point x="528.5" y="357.0" />
+      <point x="492.0" y="357.0" />
+      <point x="50.0" y="37.5" />
+    </edge>
+    <edge source="711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.patients" target="711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.hospital_cards">
+      <point x="49.75" y="-81.5" />
+      <point x="-50.0" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8088495575221238" x="364.6356673960613" y="192.5" />
+  <SelectedNodes>
+    <node>711b3f9c-c309-4d0f-835a-2e7a62a14a49.TABLE:db_hospital.patients</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
