@@ -4,9 +4,12 @@ Free Java project for Management Hospital Using J2EE
 
 ## Used Technologies
 Java Web Application building using ( JSP - Servlet )
+
 Design Pattern
+
 MySql Database
 
+### Project Description
 The system administrator can access the list of Patients and the list of Physicians by categories:
  
  * pediatrician
