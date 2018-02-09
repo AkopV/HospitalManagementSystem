@@ -63,4 +63,8 @@ The patient can be discharged from the hospital, while the final diagnosis is fi
 ## List Patients By DoctorId
 ![screenshot at feb 09 22-46-20](https://user-images.githubusercontent.com/16304318/36049362-234364ac-0deb-11e8-9c26-11322acd28e6.png)
 
+## Built With
+Maven - Dependency Management
 
+## Author
+Akop Vardanian
