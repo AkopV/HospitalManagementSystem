@@ -54,5 +54,8 @@ The patient can be discharged from the hospital, while the final diagnosis is fi
 ## List of Doctors
 ![screenshot at feb 09 22-18-38](https://user-images.githubusercontent.com/16304318/36048280-5b2a3962-0de7-11e8-8ce7-96abc154de1a.png)
 
+## List of Patients
+![image](https://user-images.githubusercontent.com/16304318/36049215-b056a74c-0dea-11e8-8fb2-c5ec86677bda.png)
+
 ## Add User
 ![screenshot at feb 09 22-33-18](https://user-images.githubusercontent.com/16304318/36048850-43ac9e5e-0de9-11e8-9aec-9d80e09ace23.png)
