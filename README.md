@@ -59,3 +59,8 @@ The patient can be discharged from the hospital, while the final diagnosis is fi
 
 ## Add User
 ![screenshot at feb 09 22-33-18](https://user-images.githubusercontent.com/16304318/36048850-43ac9e5e-0de9-11e8-9aec-9d80e09ace23.png)
+
+## List Patients By DoctorId
+![screenshot at feb 09 22-46-20](https://user-images.githubusercontent.com/16304318/36049362-234364ac-0deb-11e8-9c26-11322acd28e6.png)
+
+
